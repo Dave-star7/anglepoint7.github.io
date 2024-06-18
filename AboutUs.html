@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link rel="stylesheet" href="AboutUs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <p>Mapping the World with Precision <i class="fa fa-map-marker"></i>    Kasarani, Nairobi, Kenya <i class="fa fa-phone"></i> +254707266538  <i class="fa fa-envelope"></i> anglepoint@co.ke</p>
+    </div>
+
+
+    <div class="header2">
+        <div class="logo">
+            <a href="#"><img src="IMAGES/logo.jpg"></a>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#section1">Projects</a></li>
+            <li><a href="#section2">Ongoing projects</a></li>
+            <li><a href="#section3">Training</a></li>
+
+        </ul>
+
+        <div class="search-icon">
+            <i class="fa fa-search"></i>
+        </div>
+
+        <div class="search-box" style="display: none;">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <script>
+              document.addEventListener('DOMContentLoaded', function() {
+        const searchIcon = document.querySelector('.search-icon');
+        const searchBox = document.querySelector('.search-box');
+
+        searchIcon.addEventListener('click', function() {
+            // Toggle visibility of search box
+            if (searchBox.style.display === 'none') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+
+        // Add event listener for search button click
+        searchButton.addEventListener('click', function() {
+            // Get the search query
+            const query = searchInput.value.trim().toLowerCase();
+
+            // Perform search functionality here
+            // You can implement the search logic based on your website content
+            // For example, you might want to search through the text content of elements
+
+            // Here's a simple example to alert the search query
+            alert('You searched for: ' + query);
+        });
+    });
+        </script>
+
+
+    </div>
+
+    <div class="BG">
+        <h1>ABOUT US</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li><i class="fa fa-angle-right"></i>
+            <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h3>About Us</h3>
+        <p>At Angle Point, we specialize in Geographic Information Systems (GIS), Land Survey, and Remote Sensing services tailored to meet the needs of organizations and companies worldwide. Our expertise lies in leveraging cutting-edge technology to provide accurate, insightful, and actionable geospatial solutions. </p>
+
+        <h3>What We Do</h3>
+        <p>1. GIS and Remote Sensing Projects: We offer comprehensive services for GIS and Remote Sensing projects, utilizing advanced tools and techniques to analyze spatial data, create maps,
+               and extract valuable insights. <br> <br>
+
+            2. Training Programs: Empower your team with the skills they need for data-driven decision-making. Our training programs cover GIS, Land survey technologies, Remote Sensing, and mobile data collection techniques, equipping participants with practical knowledge to tackle real-world challenges.
+
+            </p>
+      </div>
+
+
+
+
+    <footer>
+
+
+
+        <h3>CONNECT WITH US</h3>
+        <h6>For more information or further Questions</h6>
+        <div class="icons">
+          <i class="fa fa-phone"></i><span>  +254719521279
+
+          </span><i class="fa fa-envelope"></i> <span> anglepoint@co.ke</span>   <i class="fa fa-whatsapp"></i><span> +254719521279</span> <i class="fa fa-facebook-square" ></i><span>ovmsKenya</span>
+          <i class="fa fa-twitter"></i><span>@ovmsKenya</span><i class="fa fa-instagram"></i><span>ovmsKenya</span>
+
+        </div>
+
+        <script>
+              document.addEventListener('DOMContentLoaded', function() {
+        const searchIcon = document.querySelector('.search-icon');
+        const searchBox = document.querySelector('.search-box');
+
+        searchIcon.addEventListener('click', function() {
+            // Toggle visibility of search box
+            if (searchBox.style.display === 'none') {
+                searchBox.style.display = 'block';
+            } else {
+                searchBox.style.display = 'none';
+            }
+        });
+
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+
+        // Add event listener for search button click
+        searchButton.addEventListener('click', function() {
+            const query = searchInput.value.trim().toLowerCase();
+
+            // Retrieve sections on the page
+            const sections = document.querySelectorAll('.searchable');
+
+            // Loop through each section and search within its content
+            sections.forEach(function(section) {
+                // Retrieve elements with searchable content within the section
+                const searchableElements = section.querySelectorAll('.searchable-content');
+
+                // Loop through each element and check if it contains the search query
+                searchableElements.forEach(function(element) {
+                    const content = element.textContent.toLowerCase();
+                    if (content.includes(query)) {
+                        // Display or highlight the matching results
+                        element.style.backgroundColor = 'yellow'; // Example: Highlight matching elements
+                    } else {
+                        element.style.backgroundColor = ''; // Reset background color if not a match
+                    }
+                });
+            });
+        });
+    });
+        </script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const searchIcon = document.querySelector('.search-icon');
+    const searchBox = document.querySelector('.search-box');
+
+    searchIcon.addEventListener('click', function() {
+        // Toggle visibility of search box
+        if (searchBox.style.display === 'none') {
+            searchBox.style.display = 'block';
+        } else {
+            searchBox.style.display = 'none';
+        }
+    });
+
+    // Other search functionality...
+});
+
+// Add event listener for search button click
+searchButton.addEventListener('click', function() {
+    const query = searchInput.value.trim().toLowerCase();
+
+    // Remove previous search highlights
+    document.querySelectorAll('.searchable-content').forEach(function(element) {
+        element.classList.remove('highlight');
+    });
+
+    // Retrieve sections on the page
+    const sections = document.querySelectorAll('.searchable');
+
+    // Loop through each section and search within its content
+    sections.forEach(function(section) {
+        // Retrieve elements with searchable content within the section
+        const searchableElements = section.querySelectorAll('.searchable-content');
+
+        // Loop through each element and check if it contains the search query
+        searchableElements.forEach(function(element) {
+            const content = element.textContent.toLowerCase();
+            if (content.includes(query)) {
+                // Display or highlight the matching results
+                element.classList.add('highlight');
+            }
+        });
+    });
+});
+
+
+</script>
+        <hr>
+        <p>copyright &copy; anglepoint 2024</p>
+
+      </footer>
+
+
+</body>
+</html>

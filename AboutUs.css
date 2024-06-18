@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    background-color:  #1a1a1a;
+    color: #ffffff;
+}
+.header p{
+    padding-left: 120px;
+    padding-top: 17px;
+    font-size: 15px;
+
+}
+.header .fa{
+    font-size: 20px;
+    margin-left: 150px;
+}
+.header2{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+/* Add this CSS to your Home.css file or any other CSS file you are using */
+
+/* Style for the search icon */
+.search-icon {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.search-icon i {
+    font-size: 20px;
+    color: #333; /* Change the color as needed */
+    margin-left: 20px;
+}
+
+/* Style for the search box */
+.search-box {
+    margin-top: 10px;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    width: 200px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    background-color: #007bff; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #0056b3; /* Change the hover background color as needed */
+}
+
+.logo{
+    height: 70px;
+    margin-left: 50px;
+}
+.header2 img{
+    height: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+}
+
+ul li {
+    display: inline;
+    margin-left: 30px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+ul li a:hover{
+    color: #ffa500;
+}
+.header3{
+    height: 140px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.header3 h3{
+    padding-top: 50px;
+    font-size: 25px;
+    color: #ffa500;
+}
+.distict{
+    height: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #8f8a8a50);
+}
+.Logo2{
+    height: 500px;
+    background-image: url(IMAGES/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown-arrow {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.dropdown-arrow i {
+    font-size: 24px; /* Adjust size as needed */
+}
+.Logo2 .fa{
+    font-size: 50px;
+    align-items: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50%);
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.BG{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.8)) ,url(SATELITE.jpg) no-repeat center;
+    background-position: center;
+    background-size: cover;
+}
+.BG h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 70px;
+
+
+}
+.BG ul{
+    text-align: center;
+    margin-top: 7px;
+    margin-right: 230px;
+
+}
+.BG ul li{
+    display: inline-flex;
+    padding: 7px;
+    text-align: center;
+
+}
+.BG ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.BG  .fa{
+    color: #fff;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 25px;
+    color: #ffa500;
+    padding-top: 50px;
+}
+.content p{
+    margin-left: 70px;
+    padding-top: 20px;
+    margin-right: 70px;
+}
+
+
+
+
+
+
+footer{
+    height: 270px;
+    width: 100%;
+    margin-top: 130px;
+    background-color:  #1a1a1a;
+    color: #ffffff;
+}
+footer h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: lighter;
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+footer h6{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+footer .icons{
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 150px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+footer .icons .fa {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 70px;
+
+}
+footer .icons span{
+    margin-left: 5px;
+}
+footer .icons hr{
+    width: 2%;
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+}
+
